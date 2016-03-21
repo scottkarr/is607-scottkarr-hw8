@@ -1,0 +1,43 @@
+---
+title: 'HW #8 '
+output:
+  html_document:
+    css: ./lab.css
+    highlight: pygments
+    theme: cerulean
+  pdf_document: default
+---
+Create three files which store the book’s information in HTML (using an html table), XML, 
+and JSON formats (e.g. “books.html”, “books.xml”, and “books.json”).
+
+Load the information from each of the three sources into separate R data frames. 
+Are the three data frames identical?
+
+```{r setup, eval=TRUE, include=FALSE}
+library(XML)
+library(knitr)
+library(plyr)
+library(rjson)
+setwd("/Users/scottkarr/IS607Spring2016/hw8/")
+```
+
+```{r html, eval=TRUE}
+url <-  "/Users/scottkarr/IS607Spring2016/hw8/more/books.html"
+html <- readHTMLTable(url)
+df <- data.frame(html)
+kable(df, align='l')
+```
+
+```{r xml, eval=TRUE}
+url <-  "/Users/scottkarr/IS607Spring2016/hw8/more/books.xml"
+df <- ldply(xmlToList(url), data.frame)
+kable(df, align='l')
+```
+
+```{r json, eval=TRUE}
+url <-  "/Users/scottkarr/IS607Spring2016/hw8/more/books.json"
+json <- fromJSON(paste(readLines(url), collapse=""))
+df <- data.frame(json)
+kable(df, align='l')
+```
+

@@ -1,0 +1,32 @@
+[
+    {
+    "title":"Flashboys",
+    "author1":"Michael Lewis",
+    "author2":"",
+    "author3":"",
+    "type":"Non-fiction",
+    "genre":"Thriller, Suspense, Sleuth", 
+    "price":"14.31",
+    "description":"Chronicles the team that discovered market distortions from electronic trading."
+    }, 
+    {
+    "title":"The Economists'92 Voice", 
+    "author1":"Joseph Stiglitz",
+    "author2":"Aaron S. Edlin",
+    "author3":"J. Bradford Delong",
+    "type":"Non-fiction",
+    "genre":"Economics, Public Policy", 
+    "price":"18.95",
+    "description":"Compilation of contemporary economists on public policy issues."
+    },
+    {
+    "title":"The Circle", 
+    "author1":"David Eggers",
+    "author2":"",
+    "author3":"",
+    "type":"Fiction",
+    "genre":"Thriller, Suspense, Dystopia, Contemporary Issues", 
+    "price":"9.49",
+    "description":"A 'Brave New World' for the modern surveillance state."
+    }
+]

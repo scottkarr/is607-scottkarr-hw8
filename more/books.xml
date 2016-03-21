@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<readinglist>
+
+<book>
+  <title lang="en">Flashboys</title>
+  <author1>Michael Lewis</author1>
+  <type>Non-fiction</type>
+  <genre>Thriller, Suspense, Sleuth</genre>
+  <price>14.31</price>
+  <description >Chronicles the team that discovered market distortions from electronic trading.</description>
+</book>
+
+<book>
+  <title lang="en">The Economists’ Voice</title>
+  <author1>Joseph E. Stiglitz</author1>
+  <author2>Aaron S. Edlin</author2>
+  <author3>J. Bradford Delong</author3>
+  <genre>Non-fiction</genre>
+  <genre>Economics, Public Policy</genre>
+  <price>18.95</price>
+  <description >Compilation of contemporary economists on public policy issues.</description>
+</book>
+
+<book>
+  <title lang="en">The Circle</title>
+  <author1>David Eggers</author1>
+  <genre>Fiction</genre>
+  <genre>Thriller, Suspense, Dystopia, Contemporary issues</genre>
+  <price>9.49</price>
+  <description >A “Brave New World” for the modern surveillance state.</description>
+</book>
+
+</readinglist>
